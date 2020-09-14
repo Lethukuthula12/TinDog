@@ -1,0 +1,175 @@
+
+.container-fluid{
+  padding-left: 0;
+  padding: 3% 0 7%;
+}
+body{
+  font-family: "Montserrat";
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+
+}
+h2{
+  font-family:sans-serif;
+  font-size: 20rem;
+  line-height: 1.5;
+  font-weight:900px;
+}
+h3 {
+  font-family:"Montserrat-bold";
+  font-weight:bolder;
+  font-weight: lighter;
+
+}
+p{
+  color:#8f8f8f;
+}
+/* picture format */
+.iphone-image{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  /* margin: 30% auto; */
+}
+#features{
+  padding: 10% 5%;
+  text-align:center;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 6.5rem;
+  font-weight: bold;
+  padding:0 0;
+
+}
+.navbar{
+  padding-left: 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-family: "Montserrat-light"
+}
+
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+#title {
+  background: #ff4c68;
+  padding: 3% 15%;
+  color: #fff;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.first{
+padding: 5%;
+width: 100%;
+
+}
+.second{
+padding: 5%;
+width: 100%;
+line-height: 2;
+}
+.thirth{
+padding: 5%;
+width: 100%;
+}
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+i:hover{
+  color:#ff4c86
+}
+
+/* testiminial section */
+.testiminial-image{
+  width: 10%;
+  border-radius: 100%
+}
+#press{
+  background-color: #ef8172;
+  padding: 5% 5% 7%;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+}
+.testimonial-text{
+  padding: 5% 5%;
+  font-size:3rem;
+  line-height:1.5;
+  text-align: center;
+  font-weight: bold;
+}
+.carousel-item{
+  padding: 10% 10%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 5% 5%;
+  text-align: center;
+}
+
+.spacing-btns{
+  padding: 3% 3%;
+  width: 40px;
+}
+.iphone-image{
+  position: absolute;
+  right: 30%;
+}
+
+/* Media viewpoin */
+@media (max-width:996px) {
+  .iphone-image{
+  position: static;
+  transform: rotate(0);
+  }
+  h1{
+    text-align: center;
+  }
+  p{text-align: center;}
+}
+/* cta selector */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+#footer{
+  padding: 5%;
+  text-align: center;
+  background-color: #fff;
+}
+.btn-1{
+  display: inline-block;
+  padding: 2%;
+}
+
+.iconss{
+  padding: 2%;
+}
